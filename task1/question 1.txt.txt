@@ -21,7 +21,7 @@ COMPARE HTTP 1.1 AND HTTP 2.0 :
  
 Protocol Basics:
 
-      HTTP/1.1: The most widely used version until the emergence of HTTP/2. It uses a request-response model, where each client request                results in a server response.
+      HTTP/1.1: The most widely used version until the emergence of HTTP/2. It uses a request-response model, where each client request results in a server response.
      HTTP/2.0: A successor to HTTP/1.1, designed to address its limitations and improve overall performance.
      
 Security:
@@ -30,4 +30,6 @@ Security:
 
 Conclusion:
 
-  HTTP/2.0 brings significant improvements over its predecessor, HTTP/1.1, by introducing features like multiplexing, header compression, server push,. These enhancements result in faster page load times, reduced latency, and improved overall performance. As websites and web applications continue to evolve, adopting HTTP/2.0 can provide a competitive edge by delivering a smoother and more efficient user experience.
+  HTTP/2.0 brings significant improvements over its predecessor, HTTP/1.1, by introducing features like multiplexing, header compression, server push.
+These enhancements result in faster page load times, reduced latency, and improved overall performance. As websites and web applications continue to 
+evolve, adopting HTTP/2.0 can provide a competitive edge by delivering a smoother and more efficient user experience.
