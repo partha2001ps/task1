@@ -1,0 +1,33 @@
+1.To compare HTTP 1.1 and HTTP 2.0
+
+INTRODUCTION to HTTP:
+
+       To first HTTP means Hyper text transfer protocol . it's used for data communication www(world wide web).
+    Data communication between user client to web server.
+
+COMPARE HTTP 1.1 AND HTTP 2.0 :
+
+        1. HTTP 1.1 is a used request the server after response the server complete another request send unstill to waiting for request .
+    This problem to overcome HTTP 2.0 it is "MULTIPLEXING" at a time multiple requests send and at this time response to server.
+    Its fast compare HTTP 1.1
+
+      2. HTTP/1.1 must request  multiple round trips between the client and the server.
+   server push is a unique feature of HTTP/2 and minimise the round client and server.
+   
+
+      3. HTTP 1.1 is each request and response to header include the header provided.this header to important data to transfer.
+  HTTP 2.0  is a to reduce header used for HPACK algorithm it's used for amount of data to transfer and improve performance.
+  HTTP 1.1 is delay between clients to server To increase fast multiplexing is HTTP 2.0 .This is compare the HTTP 1.1 to high performance.
+ 
+Protocol Basics:
+
+      HTTP/1.1: The most widely used version until the emergence of HTTP/2. It uses a request-response model, where each client request                results in a server response.
+     HTTP/2.0: A successor to HTTP/1.1, designed to address its limitations and improve overall performance.
+     
+Security:
+
+     Both HTTP/1.1 and HTTP/2.0 can use the same encryption protocols (TLS/SSL) to ensure data security during transmission.
+
+Conclusion:
+
+  HTTP/2.0 brings significant improvements over its predecessor, HTTP/1.1, by introducing features like multiplexing, header compression, server push,. These enhancements result in faster page load times, reduced latency, and improved overall performance. As websites and web applications continue to evolve, adopting HTTP/2.0 can provide a competitive edge by delivering a smoother and more efficient user experience.

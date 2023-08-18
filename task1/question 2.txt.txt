@@ -1,0 +1,35 @@
+Objects and its internal representation in Javascript
+     
+     The JavaScript objects is a fundamental data structure .The data using key-value pairs.
+      The internal representation of objects including a combination of properties and methods. 
+      Properties are the values associated with keys, and methods are functions defined within the object.
+   The object used property and methods are used by dot after bracket using for example Object.values(); 
+
+Javascript object defined as unordered collection of data key and value pair.object is a reference data storage memory.
+The each key assign the value.This values are number,string.
+
+     The object in javascript simple example
+
+let person={
+
+    name:partha,
+    age:21,
+    birthyear:2001,
+    location:Salem
+
+};
+
+Console.log(person);
+
+This is a simple object of javascript program 
+
+The output of program
+
+{ name: 'partha', age: 21, birthyear: 2001, location: 'Salem' }
+
+name ,age ,birthyear ,location there are keys and partha, 21, 2001 ,salem that are value 
+This is a key: value pair
+
+Console.log((person));
+
+Output:name ,age ,birthyear ,location
